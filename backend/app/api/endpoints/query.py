@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, Depends
 from app.services.qa_engine import build_index, query_pdf
 from app.models.document import Document
 from app.core.database import SessionLocal
