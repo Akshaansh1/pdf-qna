@@ -49,3 +49,7 @@ These components work together to:
 ## Frontend
 1. Used React.js for the frontend
 2. Used libraries such as **tailwind-css** and **lucide-react** for styling.
+
+## WorkFlow Of the Project
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/5fb28c14-8342-4a02-97c6-39d864882fcb" />
+
