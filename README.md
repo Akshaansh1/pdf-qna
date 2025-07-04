@@ -41,7 +41,9 @@ These components work together to:
 
 ## Backend
 1.FastAPI – Handles routing, request parsing, and serves the API endpoints (/upload, /query) efficiently.
+
 2.PdfMy / SimpleDirectoryReader – Loads and parses PDF content into text for downstream processing.
+
 3.PostgresSQL - Stores the documents info and the query info
 
 ## Frontend
