@@ -38,3 +38,12 @@ These components work together to:
 2. Embed chunks into vector space,
 3. Retrieve semantically relevant segments based on queries.
 ![image](https://github.com/user-attachments/assets/bff71540-6938-4141-b066-2cde5832e134)
+
+## Backend
+1.FastAPI – Handles routing, request parsing, and serves the API endpoints (/upload, /query) efficiently.
+2.PdfMy / SimpleDirectoryReader – Loads and parses PDF content into text for downstream processing.
+3.PostgresSQL - Stores the documents info and the query info
+
+## Frontend
+1. Used React.js for the frontend
+2. Used libraries such as **tailwind-css** and **lucide-react** for styling.
